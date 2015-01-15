@@ -29,7 +29,7 @@ add_library(exupstream2 SHARED
 ################################
 
 export_project(
-    NAME libexupstream2
+    NAME exupstream2
     INCLUDES ${CMAKE_CURRENT_LIST_DIR}/include
     LIBS exupstream2
     VERSION ${EXUPSTREAM2_VERSION}
